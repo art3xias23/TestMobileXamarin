@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieShopMobile", "PieShopMobile.csproj", "{D3DF5550-78B8-49A8-8ED8-D5780897BDDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieShopMobile.Core", "..\PieShopMobile.Core\PieShopMobile.Core.csproj", "{DCC30B38-ECD3-414F-AF0C-127DD4C6CA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3DF5550-78B8-49A8-8ED8-D5780897BDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DF5550-78B8-49A8-8ED8-D5780897BDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DF5550-78B8-49A8-8ED8-D5780897BDDA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D3DF5550-78B8-49A8-8ED8-D5780897BDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DF5550-78B8-49A8-8ED8-D5780897BDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DF5550-78B8-49A8-8ED8-D5780897BDDA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DCC30B38-ECD3-414F-AF0C-127DD4C6CA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC30B38-ECD3-414F-AF0C-127DD4C6CA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC30B38-ECD3-414F-AF0C-127DD4C6CA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC30B38-ECD3-414F-AF0C-127DD4C6CA95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C8F1C95-FAD9-403B-B33E-7D4B48A7F9D8}
+	EndGlobalSection
+EndGlobal
