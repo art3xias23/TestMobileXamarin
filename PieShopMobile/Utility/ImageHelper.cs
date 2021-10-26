@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using Android.Graphics;
 
-namespace BethanysPieShopMobile.Utility
+namespace PieShopMobile.Utility
 {
     public class ImageHelper
     {

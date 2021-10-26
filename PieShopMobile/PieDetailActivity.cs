@@ -1,14 +1,15 @@
 ﻿using Android.App;
 using Android.OS;
+using Android.Support.V7.App;
 using Android.Widget;
-using BethanysPieShopMobile.Utility;
 using PieShopMobile.Core.Model;
 using PieShopMobile.Core.Model.Repository;
+using PieShopMobile.Utility;
 
 namespace PieShopMobile
 {
-    [Activity(Label = "PieDetailActivity", MainLauncher = true)]
-    public class PieDetailActivity : Activity
+    [Activity(Label = "@string/app_name", Theme ="@style/AppTheme")]
+    public class PieDetailActivity : AppCompatActivity
     {
         private PieRepository _pieRepository;
         private Pie _selectedPie;

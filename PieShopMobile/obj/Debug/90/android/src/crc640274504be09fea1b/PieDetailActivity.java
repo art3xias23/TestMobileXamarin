@@ -2,7 +2,7 @@ package crc640274504be09fea1b;
 
 
 public class PieDetailActivity
-	extends android.app.Activity
+	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {

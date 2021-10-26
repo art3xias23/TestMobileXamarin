@@ -3,10 +3,10 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="BethanysPieShopMobile" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="crc640274504be09fea1b.MainActivity" />
-    <activity android:label="PieDetailActivity" android:name="crc640274504be09fea1b.PieDetailActivity">
+    <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="crc640274504be09fea1b.PieDetailActivity" />
+    <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="crc640274504be09fea1b.PieMenuActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
