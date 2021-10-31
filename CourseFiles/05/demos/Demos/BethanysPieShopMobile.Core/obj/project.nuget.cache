@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "peNu7itc9LCCRIneeW8sTtQjITUEsc9WcvrkDRv6jrlGmdQ0GSaJShlBfeeXo0chwMwBituHXXR3mUE+xK8a/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kmilchev\\Desktop\\Apps\\TestMobileXamarin\\CourseFiles\\05\\demos\\Demos\\BethanysPieShopMobile.Core\\BethanysPieShopMobile.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kmilchev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kmilchev\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -24,7 +24,8 @@ namespace PieShopMobile
 
             _pieAdapter = new PieAdapter();
 
-            _pieLayoutManager = new LinearLayoutManager(this);
+            _pieLayoutManager = new GridLayoutManager(this,2,GridLayoutManager.Horizontal,false);
+            //_pieLayoutManager = new LinearLayoutManager(this);
             _pieRecyclerView.SetLayoutManager(_pieLayoutManager);
             _pieRecyclerView.SetAdapter(_pieAdapter);
 
