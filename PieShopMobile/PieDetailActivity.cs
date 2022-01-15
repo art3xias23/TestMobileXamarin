@@ -1,4 +1,5 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
@@ -26,9 +27,10 @@ namespace PieShopMobile
             SetContentView(Resource.Layout.pie_detail);
 
             _pieRepository = new PieRepository();
-            _selectedPie = _pieRepository.GetPieById(1);
+            _selectedPie = _pieRepository.GetPieById(Intent.Extras.GetInt("selectedPieId"));
             FindViews();
             BindData();
+            LinkEventHandlers();
         }
 
         private void BindData()
@@ -53,6 +55,22 @@ namespace PieShopMobile
             _amountEditText = FindViewById<EditText>(Resource.Id.amountEditText);
             _addToCartButton = FindViewById<Button>(Resource.Id.addToCartButton);
 
+        }
+
+        private void LinkEventHandlers()
+        {
+            _addToCartButton.Click += AddToCartButton_Click;
+        }
+
+        private void AddToCartButton_Click(object sender, EventArgs e)
+        {
+            var amount = int.Parse(_amountEditText.Text);
+
+            ShoppingCartRepository shoppingCartRepository = new ShoppingCartRepository();
+            shoppingCartRepository.AddToShoppingCart(_selectedPie, amount);
+            Toast.MakeText(Application.Context, "Pie added to cart", ToastLength.Long).Show();
+
+            this.Finish();
         }
     }
 }

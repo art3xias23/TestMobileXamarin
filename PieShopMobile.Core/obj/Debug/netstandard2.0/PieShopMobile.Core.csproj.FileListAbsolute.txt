@@ -6,4 +6,4 @@ C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile.Core\obj\Debug\ne
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile.Core\obj\Debug\netstandard2.0\PieShopMobile.Core.csproj.CoreCompileInputs.cache
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile.Core\obj\Debug\netstandard2.0\PieShopMobile.Core.dll
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile.Core\obj\Debug\netstandard2.0\PieShopMobile.Core.pdb
-C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile.Core\obj\Debug\netstandard2.0\PieShopMobile.Core.csprojAssemblyReference.cache
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile.Core\obj\Debug\netstandard2.0\PieShopMobile.Core.GeneratedMSBuildEditorConfig.editorconfig

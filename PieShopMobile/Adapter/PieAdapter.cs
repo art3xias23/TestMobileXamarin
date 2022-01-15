@@ -13,7 +13,7 @@ namespace PieShopMobile.Adapter
     {
         private List<Pie> _pies;
         private PieRepository _pieRepository;
-        public event EventHandler<int> ViewHolderItemClick;
+        public event EventHandler<int> ItemClick;
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
@@ -42,10 +42,15 @@ namespace PieShopMobile.Adapter
             _pies = _pieRepository.GetAllPies();
         }
 
+        public PieAdapter(Category category)
+        {
+            _pies = category.Pies;
+        }
+
         public void Listener(int position)
         {
             var pieClickedId = _pies[position].PieId;
-            ViewHolderItemClick?.Invoke(this, pieClickedId);
+            ItemClick?.Invoke(this, pieClickedId);
         }
     }
 }

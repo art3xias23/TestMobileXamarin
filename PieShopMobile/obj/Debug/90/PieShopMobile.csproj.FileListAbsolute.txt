@@ -10,7 +10,7 @@ C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\bin\Debug\PieShop
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\build.props
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\adb.props
-C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\PieShopMobile.csprojAssemblyReference.cache
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\PieShopMobile.csproj.AssemblyReference.cache
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res.flag
@@ -58,6 +58,13 @@ C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\layout\pie_menu.xml
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\layout\pie_detail.xml
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\drawable\patternwide.png
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\layout\pie_viewholder.xml
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\drawable\bethanylogo.png
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\layout\cart.xml
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\layout\cart_viewholder.xml
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\layout\about.xml
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\layout\pie_menu_tabs.xml
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\layout\pie_menu_fragment.xml
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\uploadflags.txt
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\resolvedassemblies.hash
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\assets\Java.Interop.dll
@@ -175,9 +182,15 @@ C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\andr
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\android\support\v7\cardview\R.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\android\support\v7\recyclerview\R.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc640274504be09fea1b\AboutActivity.java
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc640274504be09fea1b\CartActivity.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc640274504be09fea1b\MainActivity.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc640274504be09fea1b\PieDetailActivity.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc640274504be09fea1b\PieMenuActivity.java
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc640274504be09fea1b\PieMenuWithTabsActivity.java
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc647a0622dd003f9c09\CategoryFragmentAdapter.java
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc647a0622dd003f9c09\PieAdapter.java
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc647a0622dd003f9c09\ShoppingCartAdapter.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\AccelerometerListener.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\ActivityLifecycleContextListener.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\BarometerListener.java
@@ -195,6 +208,9 @@ C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\andr
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorCallbackActivity.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64a98abb514ffad9f1\CustomTabsServiceConnectionImpl.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64a98abb514ffad9f1\KeepAliveService.java
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64b1c4c85bfd86c05b\PieCategoryFragment.java
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64ea28df04fd7a3678\CartViewHolder.java
+C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64ea28df04fd7a3678\PieViewHolder.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\mono\android\app\ApplicationRegistration.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\mono\android\support\design\chip\ChipGroup_OnCheckedChangeListenerImplementor.java
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\mono\android\support\design\widget\AppBarLayout_OnOffsetChangedListenerImplementor.java
@@ -277,6 +293,3 @@ C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\stam
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\res\layout\pie_viewholder.xml
-C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc647a0622dd003f9c09\PieAdapter.java
-C:\Users\kmilchev\Desktop\Apps\TestMobileXamarin\PieShopMobile\obj\Debug\90\android\src\crc64ea28df04fd7a3678\PieViewHolder.java

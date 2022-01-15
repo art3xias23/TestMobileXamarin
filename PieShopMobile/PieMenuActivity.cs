@@ -1,4 +1,5 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Support.V4.Content.Res;
 using Android.Support.V7.App;
@@ -7,7 +8,7 @@ using PieShopMobile.Adapter;
 
 namespace PieShopMobile
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
 
     public class PieMenuActivity : AppCompatActivity
     {
@@ -23,13 +24,19 @@ namespace PieShopMobile
             _pieRecyclerView = FindViewById<RecyclerView>(Resource.Id.pieMenuRecyclerView);
 
             _pieAdapter = new PieAdapter();
+            _pieAdapter.ItemClick += PieAdapter_ItemClick;
 
-            _pieLayoutManager = new GridLayoutManager(this,2,GridLayoutManager.Horizontal,false);
-            //_pieLayoutManager = new LinearLayoutManager(this);
+            _pieLayoutManager = new LinearLayoutManager(this);
             _pieRecyclerView.SetLayoutManager(_pieLayoutManager);
             _pieRecyclerView.SetAdapter(_pieAdapter);
+        }
 
-
+        private void PieAdapter_ItemClick(object sender, int e)
+        {
+            var intent = new Intent();
+            intent.SetClass(this, typeof(PieDetailActivity));
+            intent.PutExtra("selectedPieId", e);
+            StartActivity(intent);
         }
     }
 }

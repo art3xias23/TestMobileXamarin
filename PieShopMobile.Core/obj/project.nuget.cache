@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bL0hg/6oV37Ll4tUnmIvExm/ecAY0bLZL+qLgQp7pdc6szfO5FUV/x72AThe4vxevjdqOhAG3lJOqb5ANdtSLw==",
+  "dgSpecHash": "U5Nh/A6hNYBlzEw1BrnVXlZBri5Y/CE65AwGEBi/fZVlJgY/gjTr6oP+DttnRpSHwpQh2nM5TVfLMrTTSIdOkg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kmilchev\\Desktop\\Apps\\TestMobileXamarin\\PieShopMobile.Core\\PieShopMobile.Core.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\kmilchev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\kmilchev\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

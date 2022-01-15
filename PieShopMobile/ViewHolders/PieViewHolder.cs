@@ -2,7 +2,6 @@
 using Android.Views;
 using Android.Widget;
 using System;
-using System.Runtime.Remoting.Channels;
 using Android.Support.V7.Widget;
 
 namespace PieShopMobile.ViewHolders
